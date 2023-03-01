@@ -12,14 +12,12 @@ const NavbarDiv = () => {
                 <Container>
                     <Navbar.Brand href="/"><i><b>moreNews</b></i></Navbar.Brand>
                     <NavDropdown title="Quick News" id="navbarScrollingDropdown">
-                        <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action4">
-                            Another action
-                        </NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action5">
-                            Something else here
-                        </NavDropdown.Item>
+                        <NavDropdown.Item href="#action3">Paypal enables...</NavDropdown.Item>
+                        <NavDropdown.Item href="#action4">Italian Parliam...</NavDropdown.Item>
+                        <NavDropdown.Item href="#action4">Microstrategy Buys...</NavDropdown.Item>
+                        <NavDropdown.Item href="#action4">Bitcoin miners’...</NavDropdown.Item>
+                        <NavDropdown.Item href="#action4">Mango Markets...</NavDropdown.Item>
+                        
                     </NavDropdown>
                 </Container>
             </Navbar>

@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import './footer.styles.css';
 import { FaFacebookSquare } from 'react-icons/fa';
 import { FaTwitterSquare } from 'react-icons/fa';
 import { FaGoogle } from 'react-icons/fa';
@@ -8,12 +7,14 @@ import { FaLinkedin } from 'react-icons/fa';
 import { FaGithubSquare } from 'react-icons/fa';
 
 const Footer = () => {
+
+    const currentYear = new Date().getFullYear();
     return (
         <Fragment>
 
-            <footer className="text-center text-lg-start bg-light text-muted">
+            <footer className="text-center text-lg-start bg-light text-muted footer-div">
 
-                <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom " >
 
                     <div className="me-5 d-none d-lg-block">
                         <span><i>Get connected with us on social networks:</i></span>
@@ -44,7 +45,7 @@ const Footer = () => {
 
                 </section>
 
-                <section className="">
+                <section>
                     <div className="container text-center text-md-start mt-5">
 
                         <div className="row mt-3">
@@ -68,16 +69,16 @@ const Footer = () => {
                                     <i>Products</i>
                                 </h6>
                                 <p>
-                                    <a href="/#!" className="text-reset">Angular</a>
+                                    <a href="/" className="text-reset">Angular</a>
                                 </p>
                                 <p>
-                                    <a href="/#!" className="text-reset">React</a>
+                                    <a href="/" className="text-reset">React</a>
                                 </p>
                                 <p>
-                                    <a href="/#!" className="text-reset">Vue</a>
+                                    <a href="/" className="text-reset">Vue</a>
                                 </p>
                                 <p>
-                                    <a href="/#!" className="text-reset">Laravel</a>
+                                    <a href="/" className="text-reset">Laravel</a>
                                 </p>
                             </div>
 
@@ -89,16 +90,16 @@ const Footer = () => {
                                     <i>Useful links</i>
                                 </h6>
                                 <p>
-                                    <a href="/#!" className="text-reset">Pricing</a>
+                                    <a href="/" className="text-reset">Pricing</a>
                                 </p>
                                 <p>
-                                    <a href="/#!" className="text-reset">Settings</a>
+                                    <a href="/" className="text-reset">Settings</a>
                                 </p>
                                 <p>
-                                    <a href="/#!" className="text-reset">Orders</a>
+                                    <a href="/" className="text-reset">Orders</a>
                                 </p>
                                 <p>
-                                    <a href="/#!" className="text-reset">Help</a>
+                                    <a href="/" className="text-reset">Help</a>
                                 </p>
                             </div>
 
@@ -123,9 +124,9 @@ const Footer = () => {
 
 
 
-                <div className="text-center p-4" style={{ backgroundColor: "rgba(0, 0, 0, 0.05);" }}>
-                    © 2021 Copyright:
-                    <a className="text-reset fw-bold" href="/https://moreNews.com/">moreNews.com</a>
+                <div className="text-center p-4" style={{ backgroundColor: "#E5D1FA" }}>
+                    © {currentYear} Copyright:
+                    <a className="text-reset fw-bold" href="/">moreNews.in</a>
                 </div>
 
             </footer>
