@@ -11,7 +11,7 @@ const NavbarDiv = () => {
             <Navbar className='navbar-div'>
                 <Container>
                     <Navbar.Brand href="/"><i><b>moreNews</b></i></Navbar.Brand>
-                    <NavDropdown title="Quick Route" id="navbarScrollingDropdown">
+                    <NavDropdown title="Quick News" id="navbarScrollingDropdown">
                         <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
                         <NavDropdown.Item href="#action4">
                             Another action
