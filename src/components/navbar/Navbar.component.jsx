@@ -11,7 +11,7 @@ const NavbarDiv = () => {
         <Fragment>
             <Navbar className='navbar-div'>
                 <Container>
-                    <Navbar.Brand href="/"><i><b>moreNews</b></i></Navbar.Brand>
+                    <Navbar.Brand><NavLink className='navbar-links' to='/'><i><b>moreNews</b></i></NavLink></Navbar.Brand>
                     <NavDropdown title="Quick News" id="navbarScrollingDropdown">
                         <ul className='navbar-ul-links'>
                             <li><NavLink className='navbar-links' to="news/news-one">Paypal enables...</NavLink></li>
