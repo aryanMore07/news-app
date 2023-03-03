@@ -5,6 +5,7 @@ import { FaGoogle } from 'react-icons/fa';
 import { FaInstagramSquare } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithubSquare } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
 
@@ -23,24 +24,24 @@ const Footer = () => {
 
 
                     <div>
-                        <a href="/" className="me-4 text-reset">
+                        <Link to="/" className="me-4 text-reset">
                             <FaFacebookSquare />
-                        </a>
-                        <a href="/" className="me-4 text-reset">
+                        </Link>
+                        <Link to="/" className="me-4 text-reset">
                             <FaTwitterSquare/>
-                        </a>
-                        <a href="/" className="me-4 text-reset">
+                        </Link>
+                        <Link to="/" className="me-4 text-reset">
                             <FaGoogle/>
-                        </a>
-                        <a href="/" className="me-4 text-reset">
+                        </Link>
+                        <Link to="/" className="me-4 text-reset">
                             <FaInstagramSquare/>
-                        </a>
-                        <a href="/" className="me-4 text-reset">
+                        </Link>
+                        <Link to="/" className="me-4 text-reset">
                             <FaLinkedin/>
-                        </a>
-                        <a href="/" className="me-4 text-reset">
+                        </Link>
+                        <Link to="/" className="me-4 text-reset">
                             <FaGithubSquare/>
-                        </a>
+                        </Link>
                     </div>
 
                 </section>
@@ -56,7 +57,7 @@ const Footer = () => {
                                     <i className="fas fa-gem me-3"></i><i><b>moreNews</b></i>
                                 </h6>
                                 <p>
-                                    Easy and quick news onClicks.Reach out moreNews.in to stay up to date with the world
+                                    Easy and quick news onClicks. Reach out moreNews.in to stay up to date with the world.
                                 </p>
                             </div>
 
@@ -68,16 +69,16 @@ const Footer = () => {
                                     <i>Products</i>
                                 </h6>
                                 <p>
-                                    <a href="/" className="text-reset">Angular</a>
+                                    <Link to="/" className="text-reset">Angular</Link>
                                 </p>
                                 <p>
-                                    <a href="/" className="text-reset">React</a>
+                                    <Link to="/" className="text-reset">React</Link>
                                 </p>
                                 <p>
-                                    <a href="/" className="text-reset">Vue</a>
+                                    <Link to="/" className="text-reset">Vue</Link>
                                 </p>
                                 <p>
-                                    <a href="/" className="text-reset">Laravel</a>
+                                    <Link to="/" className="text-reset">Laravel</Link>
                                 </p>
                             </div>
 
@@ -89,16 +90,16 @@ const Footer = () => {
                                     <i>Useful links</i>
                                 </h6>
                                 <p>
-                                    <a href="/" className="text-reset">Pricing</a>
+                                    <Link to="/" className="text-reset">Pricing</Link>
                                 </p>
                                 <p>
-                                    <a href="/" className="text-reset">Settings</a>
+                                    <Link to="/" className="text-reset">Settings</Link>
                                 </p>
                                 <p>
-                                    <a href="/" className="text-reset">Orders</a>
+                                    <Link to="/" className="text-reset">Orders</Link>
                                 </p>
                                 <p>
-                                    <a href="/" className="text-reset">Help</a>
+                                    <Link to="/" className="text-reset">Help</Link>
                                 </p>
                             </div>
 
@@ -125,7 +126,7 @@ const Footer = () => {
 
                 <div className="text-center p-4" style={{ backgroundColor: "#E5D1FA" }}>
                     © {currentYear} Copyright:
-                    <a className="text-reset fw-bold" href="/">moreNews.in</a>
+                    <Link className="text-reset fw-bold" to="/">moreNews.in</Link>
                 </div>
 
             </footer>

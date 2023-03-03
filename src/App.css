@@ -4,8 +4,12 @@ h1 {
     text-align: center;
 }
 
-spam {
+.span-green {
     color: rgb(119, 178, 61);
+}
+
+.span-blue {
+    color: rgb(99, 99, 190);
 }
 
 .news-body {
