@@ -56,8 +56,7 @@ const Footer = () => {
                                     <i className="fas fa-gem me-3"></i><i><b>moreNews</b></i>
                                 </h6>
                                 <p>
-                                    Here you can use rows and columns to organize your footer content. Lorem ipsum
-                                    dolor sit amet, consectetur adipisicing elit.
+                                    Easy and quick news onClicks.Reach out moreNews.in to stay up to date with the world
                                 </p>
                             </div>
 

@@ -1,3 +1,23 @@
 .navbar-div {
     background-color: #E5D1FA;;
 }
+
+.navbar-ul-links {
+    list-style: none;
+    padding: 5px;
+}
+
+.navbar-ul-links li {
+    padding: 0px;
+    margin-bottom: 10px;
+    
+}
+
+.navbar-ul-links li:hover {
+    background-color: #f1f1f1;
+}
+
+.navbar-links {
+    text-decoration: none;
+    color: black;
+}
