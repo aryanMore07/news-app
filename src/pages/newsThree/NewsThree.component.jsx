@@ -3,7 +3,7 @@ import './newsThree.styles.css';
 import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
-import PaypalImg from '../../assests/images/PaypelandBitcoin.jpg';
+import MicroStrImg from '../../assests/images/MicroStrategy.jpeg';
 import SecondImg from '../../assests/images/senond-part.jpg';
 
 const NewsThree = () => {
@@ -13,7 +13,7 @@ const NewsThree = () => {
       <Container fixed>
         <Box sx={{ bgcolor: "#f1f1f1", height: "100%" }}>
           <h1><i><b>Microstrategy Buys More Bitcoin — Company's Crypto Holdings Grow to 132,500 <span className='span-blue'>BTC</span></b></i></h1>
-          <img className='img-newsOne' src={PaypalImg} alt="img-paypal" />
+          <img className='img-newsOne' src={MicroStrImg} alt="img-paypal" />
           <div className='news-body'>
             <h2><b>Microstrategy Acquires More Bitcoin</b></h2>
             Microstrategy is now holding approximately 132,500 bitcoin following its most recent purchases. This year, the world’s largest cryptocurrency has emerged as ‘the institutional-grade digital asset,’ said Microstrategy founder Michael Saylor.
